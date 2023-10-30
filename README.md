@@ -61,3 +61,4 @@ add these next few lines in at the bottom
 
 # **Congratulations**
    you now have a working secure boot with nvidia-driver
+   reference: https://wiki.debian.org/SecureBoot
