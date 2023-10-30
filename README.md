@@ -31,9 +31,9 @@ before we begin make sure you are root user just type `su` into terminal
 add these next few lines in at the bottom
     2.```mok_signing_key="/var/lib/shim-signed/mok/MOK.priv"```
     
-    3.```mok_certificate="/var/lib/shim-signed/mok/MOK.der"```
+   3.```mok_certificate="/var/lib/shim-signed/mok/MOK.der"```
     
-    4.```sign_tool="/etc/dkms/sign_helper.sh"```
+   4.```sign_tool="/etc/dkms/sign_helper.sh"```
    
    5. press `ctrl`+`s` then `ctrl` + `x` to save
 
