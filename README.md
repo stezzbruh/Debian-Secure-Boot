@@ -24,18 +24,16 @@ before we begin make sure you are root user just type `su` into terminal
 
    ```mokutil --test-key /var/lib/shim-signed/mok/MOK.der```
 
-11. Editing the framework configuration:
+10. Editing the framework configuration:
 
     1.```sudo nano /etc/dkms/framework.conf```
 
 add these next few lines in at the bottom
-   
-   2.```mok_signing_key="/var/lib/shim-signed/mok/MOK.priv"```
-   
-   3.```mok_certificate="/var/lib/shim-signed/mok/MOK.der"```
-   
-   
-   4.```sign_tool="/etc/dkms/sign_helper.sh"```
+    2.```mok_signing_key="/var/lib/shim-signed/mok/MOK.priv"```
+    
+    3.```mok_certificate="/var/lib/shim-signed/mok/MOK.der"```
+    
+    4.```sign_tool="/etc/dkms/sign_helper.sh"```
    
    5. press `ctrl`+`s` then `ctrl` + `x` to save
 
@@ -53,7 +51,7 @@ add these next few lines in at the bottom
    
    4. press `ctrl`+`s` then `ctrl`+`x` to save
 
-11. Import the DKMS key for secure boot to read:
+12. Import the DKMS key for secure boot to read:
 
    ```sudo mokutil --import /var/lib/dkms/mok.pub```
 
