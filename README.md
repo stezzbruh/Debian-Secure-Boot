@@ -29,7 +29,8 @@ before we begin make sure you are root user just type `su` into terminal
     1.```sudo nano /etc/dkms/framework.conf```
 
 add these next few lines in at the bottom
-    2.```mok_signing_key="/var/lib/shim-signed/mok/MOK.priv"```
+    
+   2.```mok_signing_key="/var/lib/shim-signed/mok/MOK.priv"```
     
    3.```mok_certificate="/var/lib/shim-signed/mok/MOK.der"```
     
